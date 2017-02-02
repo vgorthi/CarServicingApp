@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DCAADD21DFA858F000E6497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAADD11DFA858F000E6497 /* AppDelegate.swift */; };
+		5DCAADD71DFA858F000E6497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAADD51DFA858F000E6497 /* Main.storyboard */; };
+		5DCAADD91DFA858F000E6497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAADD81DFA858F000E6497 /* Assets.xcassets */; };
+		5DCAADDC1DFA858F000E6497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAADDA1DFA858F000E6497 /* LaunchScreen.storyboard */; };
+		5DCAADE41DFA85AF000E6497 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAADE31DFA85AF000E6497 /* LoginViewController.swift */; };
+		5DCAADE61DFA85CE000E6497 /* AddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAADE51DFA85CE000E6497 /* AddAppointmentViewController.swift */; };
+		5DCAADE81DFA85ED000E6497 /* AppointmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAADE71DFA85ED000E6497 /* AppointmentsTableViewController.swift */; };
+		5DCAADEA1DFA8610000E6497 /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAADE91DFA8610000E6497 /* AppointmentTableViewCell.swift */; };
+		5DCAADEC1DFA862D000E6497 /* AppointmentsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAADEB1DFA862D000E6497 /* AppointmentsDetailViewController.swift */; };
+		5DCAADEE1DFA8642000E6497 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAADED1DFA8642000E6497 /* ItemStore.swift */; };
+		5DCAADF01DFA8653000E6497 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAADEF1DFA8653000E6497 /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DCAADCE1DFA858F000E6497 /* CarServicingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarServicingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCAADD11DFA858F000E6497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DCAADD61DFA858F000E6497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DCAADD81DFA858F000E6497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DCAADDB1DFA858F000E6497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DCAADDD1DFA858F000E6497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCAADE31DFA85AF000E6497 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5DCAADE51DFA85CE000E6497 /* AddAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAppointmentViewController.swift; sourceTree = "<group>"; };
+		5DCAADE71DFA85ED000E6497 /* AppointmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsTableViewController.swift; sourceTree = "<group>"; };
+		5DCAADE91DFA8610000E6497 /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		5DCAADEB1DFA862D000E6497 /* AppointmentsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsDetailViewController.swift; sourceTree = "<group>"; };
+		5DCAADED1DFA8642000E6497 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		5DCAADEF1DFA8653000E6497 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DCAADCB1DFA858F000E6497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DCAADC51DFA858F000E6497 = {
+			isa = PBXGroup;
+			children = (
+				5DCAADD01DFA858F000E6497 /* CarServicingApp */,
+				5DCAADCF1DFA858F000E6497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DCAADCF1DFA858F000E6497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAADCE1DFA858F000E6497 /* CarServicingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCAADD01DFA858F000E6497 /* CarServicingApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAADD11DFA858F000E6497 /* AppDelegate.swift */,
+				5DCAADE31DFA85AF000E6497 /* LoginViewController.swift */,
+				5DCAADE51DFA85CE000E6497 /* AddAppointmentViewController.swift */,
+				5DCAADE71DFA85ED000E6497 /* AppointmentsTableViewController.swift */,
+				5DCAADE91DFA8610000E6497 /* AppointmentTableViewCell.swift */,
+				5DCAADEB1DFA862D000E6497 /* AppointmentsDetailViewController.swift */,
+				5DCAADED1DFA8642000E6497 /* ItemStore.swift */,
+				5DCAADEF1DFA8653000E6497 /* Item.swift */,
+				5DCAADD51DFA858F000E6497 /* Main.storyboard */,
+				5DCAADD81DFA858F000E6497 /* Assets.xcassets */,
+				5DCAADDA1DFA858F000E6497 /* LaunchScreen.storyboard */,
+				5DCAADDD1DFA858F000E6497 /* Info.plist */,
+			);
+			path = CarServicingApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DCAADCD1DFA858F000E6497 /* CarServicingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCAADE01DFA858F000E6497 /* Build configuration list for PBXNativeTarget "CarServicingApp" */;
+			buildPhases = (
+				5DCAADCA1DFA858F000E6497 /* Sources */,
+				5DCAADCB1DFA858F000E6497 /* Frameworks */,
+				5DCAADCC1DFA858F000E6497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarServicingApp;
+			productName = CarServicingApp;
+			productReference = 5DCAADCE1DFA858F000E6497 /* CarServicingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DCAADC61DFA858F000E6497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = KSU;
+				TargetAttributes = {
+					5DCAADCD1DFA858F000E6497 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5DCAADC91DFA858F000E6497 /* Build configuration list for PBXProject "CarServicingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DCAADC51DFA858F000E6497;
+			productRefGroup = 5DCAADCF1DFA858F000E6497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DCAADCD1DFA858F000E6497 /* CarServicingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DCAADCC1DFA858F000E6497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCAADDC1DFA858F000E6497 /* LaunchScreen.storyboard in Resources */,
+				5DCAADD91DFA858F000E6497 /* Assets.xcassets in Resources */,
+				5DCAADD71DFA858F000E6497 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DCAADCA1DFA858F000E6497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCAADEC1DFA862D000E6497 /* AppointmentsDetailViewController.swift in Sources */,
+				5DCAADF01DFA8653000E6497 /* Item.swift in Sources */,
+				5DCAADE61DFA85CE000E6497 /* AddAppointmentViewController.swift in Sources */,
+				5DCAADE41DFA85AF000E6497 /* LoginViewController.swift in Sources */,
+				5DCAADE81DFA85ED000E6497 /* AppointmentsTableViewController.swift in Sources */,
+				5DCAADD21DFA858F000E6497 /* AppDelegate.swift in Sources */,
+				5DCAADEE1DFA8642000E6497 /* ItemStore.swift in Sources */,
+				5DCAADEA1DFA8610000E6497 /* AppointmentTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DCAADD51DFA858F000E6497 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCAADD61DFA858F000E6497 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DCAADDA1DFA858F000E6497 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCAADDB1DFA858F000E6497 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DCAADDE1DFA858F000E6497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DCAADDF1DFA858F000E6497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DCAADE11DFA858F000E6497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarServicingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KSU.CarServicingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		5DCAADE21DFA858F000E6497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarServicingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KSU.CarServicingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DCAADC91DFA858F000E6497 /* Build configuration list for PBXProject "CarServicingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCAADDE1DFA858F000E6497 /* Debug */,
+				5DCAADDF1DFA858F000E6497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCAADE01DFA858F000E6497 /* Build configuration list for PBXNativeTarget "CarServicingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCAADE11DFA858F000E6497 /* Debug */,
+				5DCAADE21DFA858F000E6497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DCAADC61DFA858F000E6497 /* Project object */;
+}
